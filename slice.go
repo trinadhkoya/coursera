@@ -18,7 +18,7 @@ import (
 )
 
 func main() {
-	mSlice := make([]int, 0,3)
+	mSlice := make([]int, 0, 3)
 	input := bufio.NewScanner(os.Stdin)
 	fmt.Println("Please enter an integer (X to exit):")
 
